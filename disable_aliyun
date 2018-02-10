@@ -1,0 +1,5 @@
+#禁用阿里云盾
+
+systemctl stop aliyun
+systemctl disable aliyun
+systemctl status aliyun
